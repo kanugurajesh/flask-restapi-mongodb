@@ -8,8 +8,8 @@ app = Flask(__name__)
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-# Create a URI to connect to MongoDB Atlas
-uri = "mongodb+srv://hasura:RsEB60OKT1ON0veq@cluster0.wg3z167.mongodb.net/?retryWrites=true&w=majority"
+# Create a URI to connect to MongoDB Atlas.Paste your mongodb url in the below one
+uri = ""
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
