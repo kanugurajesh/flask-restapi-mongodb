@@ -28,7 +28,7 @@ except Exception as e:
 # A decorator used to tell the application
 @app.route('/')  
 def message():  
-      return "<html><body><h1>Hi, welcome to the website</h1></body></html>"
+      return "<html><body><h1>Hi, welcome to the RestApi build using flask you are currently at the root url</h1></body></html>"
 
 # returning all the users from the mongodb database
 @app.route('/users')
@@ -85,5 +85,6 @@ def delete_user(id):
         return jsonify({"error": "User not found"}), 404
 
 # main driver function
-if __name__ == '__main__':  
-   app.run(debug = True)
+if __name__ == '__main__':
+    # run() method of Flask class runs the application on the local development server. Debug is set to false in production mode but keep it to true in development mode
+   app.run(debug = False)#    
