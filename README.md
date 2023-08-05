@@ -22,3 +22,6 @@ Installing the project on local machine
 
 #### Postman
 ![Screenshot 2023-08-05 225856](https://github.com/rajesh604/flask-restapi-mongodb/assets/77529419/77e956b4-475d-4535-9ebe-f5dc2a46fb18)
+
+### Working of the app
+![2023-08-05 23-00-54](https://github.com/rajesh604/flask-restapi-mongodb/assets/77529419/b613a846-7163-4860-ba1e-02e4991c7ab4)
