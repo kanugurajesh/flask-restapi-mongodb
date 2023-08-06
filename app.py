@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # mongodb connection url
-uri = "mongodb+srv://hasura:RsEB60OKT1ON0veq@cluster0.wg3z167.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 
 # database name and collection name
 database_name = "rajesh"
@@ -68,10 +68,4 @@ api.add_resource(UsersResource, '/users')
 api.add_resource(UserResource, '/users/<int:id>')
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     app.run(host='0.0.0.0', port=5000,debug=False)
-=======
-    uri = ""
-    user_api = UserAPI(uri)
-    user_api.app.run(host='0.0.0.0', port=5000,debug=False)
->>>>>>> a094d72458b167bb74dcec3216ef1a544223a702
