@@ -58,6 +58,6 @@ class UserAPI:
                 return jsonify({"error": "User not found"}), 404
             
 if __name__ == '__main__':
-    uri = "mongodb+srv://hasura:RsEB60OKT1ON0veq@cluster0.wg3z167.mongodb.net/?retryWrites=true&w=majority"
+    uri = ""
     user_api = UserAPI(uri)
     user_api.app.run(host='0.0.0.0', port=5000,debug=False)
