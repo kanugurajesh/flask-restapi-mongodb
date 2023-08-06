@@ -7,7 +7,7 @@ app = Flask(__name__)
 api = Api(app)
 
 # mongodb connection url
-uri = "mongodb+srv://hasura:RsEB60OKT1ON0veq@cluster0.wg3z167.mongodb.net/?retryWrites=true&w=majority"
+uri = ""
 
 # database name and collection name
 database_name = "rajesh"
