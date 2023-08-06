@@ -9,6 +9,12 @@ Installing the project on local machine
 3. Install all the required modules <code>pip install -r requirements.txt</code>
 4. run the app <code>python app.py</code>
 
+## Setting Up Docker
+
+1. Install Docker machine in your machine
+2. run the command <code>docker build -t my-flask-app .</code>
+3. run the docker container <code>docker run -d -p 5000:5000 my-flask-app</code>
+
 ### Photos of working app
 
 #### Launching the app
