@@ -68,10 +68,4 @@ api.add_resource(UsersResource, '/users')
 api.add_resource(UserResource, '/users/<int:id>')
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     app.run(host='0.0.0.0', port=5000,debug=False)
-=======
-    uri = ""
-    user_api = UserAPI(uri)
-    user_api.app.run(host='0.0.0.0', port=5000,debug=False)
->>>>>>> a094d72458b167bb74dcec3216ef1a544223a702
